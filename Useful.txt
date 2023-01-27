@@ -3,8 +3,10 @@ conda env list
 git config user.name
 
 
+If for someone git add . is not working (as in my case as well), use git add ./* which included all files in all subdirectories. My directory structure is:
+
 git init
 git add .
 git commit -m "First commit"
 git remote add origin https://github.com/RajaBabu15/Deep_Learning_
-git push -u origin master
+git push -uf origin main
