@@ -1,3 +1,10 @@
 conda info
 conda env list
 git config user.name
+
+
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/RajaBabu15/Deep_Learning_
+git push -u origin master
