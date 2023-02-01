@@ -10,3 +10,7 @@ git add .
 git commit -m "First commit"
 git remote add origin https://github.com/RajaBabu15/Deep_Learning_
 git push -uf origin main
+
+
+How to add an empty folder?
+Add an empty .gitkeep file inside the desired folder.
